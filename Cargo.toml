@@ -1,0 +1,11 @@
+[package]
+name = "lambda-rust-template"
+version = "0.1.0"
+authors = ["soheyHashimoto <heyso1209@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+lambda_runtime = "0.2"
+serde = { version = "1", features = ["derive"] }
+rusoto_core = "0.44"
+tokio = "0.2"
